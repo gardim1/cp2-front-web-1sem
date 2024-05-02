@@ -1,0 +1,60 @@
+
+
+#inicio{
+  padding: 1rem 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner{
+  display: flex;
+  width: 70%;
+}
+
+.banner-informacoes{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  /* justify-content: space-between; */
+}
+
+.banner-informacoes a{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 800;
+  cursor: pointer;
+  border-radius: 7px;
+  background: #4C90D1;
+  width: 233px;
+  height: 51px;
+  flex-shrink: 0;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  transition: 0.3s;
+}
+
+.banner-informacoes p{
+  color: #000;
+  font-family: Montserrat;
+  font-size: 18px;
+  padding: 1rem;
+  font-weight: 400;
+}
+
+.banner-informacoes h2{
+  color: #000;
+  font-family: Montserrat;
+  font-size: 54px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.banner-informacoes a:hover{
+  background-color: #2f70ad;
+}

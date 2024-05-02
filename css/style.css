@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url(inicio.css);
+@import url(sobre.css);
+@import url(produtos.css);
+
+:root{
+    --fonte: "Montserrat", sans-serif;
+    --primary-color: #EDBA4F;
+    --secundary-color: #4C90D1;
+    --backgound: ##EEEEEE;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: var(--fonte);
+    background-color: var(--backgound);
+}
+
+#logo-fiapet{
+    width: 87.049px;
+    height: 84.909px;
+    flex-shrink: 0;
+}
+
+header{
+    /* width: 100%;  */
+    height: 200px;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: space-between;
+    background: var(--primary-color);
+    padding: 1.5rem 2rem 0 2rem;
+} 
+
+nav{  
+    color: #000;
+    font-family: var(--fonte);
+    font-size: 15px;
+    font-weight: 700;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    list-style: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.titulo{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 300px;
+    
+}
+
+.titulo h1{
+    text-align: center;
+}
+
+#img-pug{
+    /* width: 30%;
+    height: 110%;
+    flex-shrink: 0;
+    bottom: 120%;
+    left: 100%; */
+    bottom: 30%;
+    left: 72%;
+}
